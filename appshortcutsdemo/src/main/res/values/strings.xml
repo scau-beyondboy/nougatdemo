@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">appshortcutsdemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="shortcutlabel">app快捷键</string>
+    <string name="shortcutlonglable">快点点我哈，直接打开我的shortcut页面哦</string>
+    <string name="remove_shortcut">Remove</string>
+    <string name="disable_shortcut">Disable</string>
+    <string name="enable_shortcut">Enable</string>
+
+</resources>

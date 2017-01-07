@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--静态创建app shortcuts-->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="add_website"
+        android:icon="@drawable/shortcut1"
+        android:shortcutShortLabel="@string/shortcutlabel"
+        android:shortcutLongLabel="@string/shortcutlonglable"
+        >
+        <intent
+            android:action="android.intent.action.shortcupt"
+            android:targetPackage="com.example.appshortcutsdemo"
+            android:targetClass="com.example.appshortcutsdemo.ShortCuptActivity"
+            />
+    </shortcut>
+</shortcuts>
