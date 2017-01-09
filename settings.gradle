@@ -1,1 +1,1 @@
-include ':app', ':appshortcutsdemo'
+include ':app', ':appshortcutsdemo', ':multiwindow', ':dozedemo'
