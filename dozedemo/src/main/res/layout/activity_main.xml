@@ -9,8 +9,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.scau.beyondboy.dozedemo.MainActivity">
 
-    <TextView
+    <Button
+        android:layout_centerInParent="true"
+        android:id="@+id/tx"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="点击设置Doze白名单" />
 </RelativeLayout>
