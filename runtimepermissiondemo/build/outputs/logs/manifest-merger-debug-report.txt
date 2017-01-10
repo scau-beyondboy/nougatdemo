@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:17:1-50:12
+	package
+		ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:18:5-60
+	xmlns:android
+		ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:17:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:24:5-64
+	android:name
+		ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:24:22-62
+uses-permission-sdk-m
+ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:28:5-78
+	android:name
+		ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:28:28-75
+application
+ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:33:5-48:19
+MERGED from [com.android.support:support-v13:23.3.0] /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.3.0] /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.0.0] /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.0] /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:36:9-41
+	android:allowBackup
+		ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:34:9-35
+	android:icon
+		ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:35:9-43
+	android:theme
+		ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:37:9-53
+activity#com.example.android.system.runtimepermissions.MainActivity
+ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:38:9-46:20
+	android:label
+		ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:40:13-45
+	android:name
+		ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:39:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:41:13-45:29
+action#android.intent.action.MAIN
+ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:44:17-77
+	android:name
+		ADDED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml:44:27-74
+uses-sdk
+INJECTED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v13:23.3.0] /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:23.3.0] /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.0.0] /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/build/intermediates/exploded-aar/com.android.support/design/23.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.0] /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml
+		INJECTED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml
+		INJECTED from /home/beyondboy/GameSdk/code/nougatdemo/runtimepermissiondemo/src/main/AndroidManifest.xml
