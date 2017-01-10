@@ -1,1 +1,1 @@
-include ':app', ':appshortcutsdemo', ':multiwindow', ':dozedemo', ':bdchangedandperchangeddemo'
+include ':app', ':appshortcutsdemo', ':multiwindow', ':dozedemo', ':bdchangedandperchangeddemo', ':scopeddirectoryaccess'
