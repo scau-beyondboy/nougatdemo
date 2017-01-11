@@ -12,10 +12,13 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.nfc.Tag;
 import android.os.Build;
+import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.test.suitebuilder.annotation.Suppress;
 import android.util.Log;
+import android.view.View;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -29,8 +32,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setNetWorkJobWork();
-        accessPrivateFile();
+        findViewById(R.id.bt).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                requestCameraPermission();
+            }
+        });
+        //setNetWorkJobWork();
+        //accessPrivateFile();
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
@@ -55,12 +64,38 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @SuppressWarnings("MissingPermission")
     public void getAccount() {
         AccountManager accountManager = AccountManager.get(this);
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.GET_ACCOUNTS) != PackageManager.PERMISSION_GRANTED) {
-            Account[] accounts = accountManager.getAccounts();
-            return;
+        Account[] accounts = accountManager.getAccounts();
+        final  Account[] a=accounts;
+    }
+
+    /**
+     * Callback received when a permissions request has been completed.
+     */
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
+                                           @NonNull int[] grantResults) {
+        if (requestCode == 1) {
+            getAccount();
         }
     }
+
+    private void requestCameraPermission() {
+        Log.i(TAG, "CAMERA permission has NOT been granted. Requesting permission.");
+
+        // BEGIN_INCLUDE(camera_permission_request)
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.GET_ACCOUNTS) == PackageManager.PERMISSION_GRANTED) {
+            getAccount();
+        } else {
+
+            // Camera permission has not been granted yet. Request it directly.
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.GET_ACCOUNTS},
+                    1);
+        }
+        // END_INCLUDE(camera_permission_request)
+    }
+
 
 }
