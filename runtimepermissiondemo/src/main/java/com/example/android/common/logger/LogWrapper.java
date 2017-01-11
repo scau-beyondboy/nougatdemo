@@ -72,4 +72,5 @@ public class LogWrapper implements LogNode {
             mNext.println(priority, tag, msg, tr);
         }
     }
+
 }

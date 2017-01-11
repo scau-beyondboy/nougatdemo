@@ -4,6 +4,22 @@
         "source": "/home/beyondboy/GameSdk/code/nougatdemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_switch_thumb.xml"
     },
     {
+        "merged": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
         "merged": "/home/beyondboy/GameSdk/code/nougatdemo/jobschedulerdemo/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
         "source": "/home/beyondboy/GameSdk/code/nougatdemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_btn_checkable.xml"
     },
@@ -16,12 +32,32 @@
         "source": "/home/beyondboy/GameSdk/code/nougatdemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
+        "merged": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
         "merged": "/home/beyondboy/GameSdk/code/nougatdemo/jobschedulerdemo/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
         "source": "/home/beyondboy/GameSdk/code/nougatdemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_edittext.xml"
     },
     {
+        "merged": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
         "merged": "/home/beyondboy/GameSdk/code/nougatdemo/jobschedulerdemo/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
         "source": "/home/beyondboy/GameSdk/code/nougatdemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_color_highlight_material.xml"
     },
     {
         "merged": "/home/beyondboy/GameSdk/code/nougatdemo/jobschedulerdemo/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",

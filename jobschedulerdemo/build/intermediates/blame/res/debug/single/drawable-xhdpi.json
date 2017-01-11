@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/jobschedulerdemo/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/beyondboy/GameSdk/code/nougatdemo/jobschedulerdemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
         "source": "/home/beyondboy/GameSdk/code/nougatdemo/jobschedulerdemo/src/main/res/drawable-xhdpi/ic_launcher.png"
     }

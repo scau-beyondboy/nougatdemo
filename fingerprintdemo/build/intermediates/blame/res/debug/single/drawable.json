@@ -4,6 +4,18 @@
         "source": "/home/beyondboy/GameSdk/code/nougatdemo/fingerprintdemo/src/main/res/drawable/card.xml"
     },
     {
+        "merged": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/fingerprintdemo/build/intermediates/res/merged/debug/drawable/ic_fingerprint_success.xml",
+        "source": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/fingerprintdemo/src/main/res/drawable/ic_fingerprint_success.xml"
+    },
+    {
+        "merged": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/fingerprintdemo/build/intermediates/res/merged/debug/drawable/card.xml",
+        "source": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/fingerprintdemo/src/main/res/drawable/card.xml"
+    },
+    {
+        "merged": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/fingerprintdemo/build/intermediates/res/merged/debug/drawable/ic_fingerprint_error.xml",
+        "source": "/Users/beyondboy/AndroidStudioProjects/GameSdk/nougatversiondemo/fingerprintdemo/src/main/res/drawable/ic_fingerprint_error.xml"
+    },
+    {
         "merged": "/home/beyondboy/GameSdk/code/nougatdemo/fingerprintdemo/build/intermediates/res/merged/debug/drawable/ic_fingerprint_error.xml",
         "source": "/home/beyondboy/GameSdk/code/nougatdemo/fingerprintdemo/src/main/res/drawable/ic_fingerprint_error.xml"
     },

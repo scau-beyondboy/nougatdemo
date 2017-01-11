@@ -1,13 +1,18 @@
 package com.scau.beyondboy.bdchangedandperchangeddemo;
 
+import android.Manifest;
+import android.accounts.Account;
+import android.accounts.AccountManager;
 import android.annotation.TargetApi;
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.nfc.Tag;
 import android.os.Build;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,11 +34,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    public void setNetWorkJobWork(){
-        JobScheduler jobScheduler=(JobScheduler) getSystemService(Context.JOB_SCHEDULER_SERVICE);
-        JobInfo jobInfo=new JobInfo.Builder(1,new ComponentName(this,MyJobService.class))
+    public void setNetWorkJobWork() {
+        JobScheduler jobScheduler = (JobScheduler) getSystemService(Context.JOB_SCHEDULER_SERVICE);
+        JobInfo jobInfo = new JobInfo.Builder(1, new ComponentName(this, MyJobService.class))
                 //当链接任何一种网络
-                .setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY )
+                .setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY)
                 //当插上了电源充电
                 .setRequiresCharging(true).build();
         //满足上面了两种情况就会执行这个任务
@@ -41,13 +46,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //在android 7.0会引起崩溃
-    public void accessPrivateFile(){
-        //SharedPreferences preference=getSharedPreferences("test",MODE_WORLD_WRITEABLE);
+    public void accessPrivateFile() {
         try {
+            SharedPreferences preference=getSharedPreferences("test",MODE_WORLD_WRITEABLE);
             FileOutputStream fos = openFileOutput("test", Context.MODE_WORLD_WRITEABLE);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-            Log.d(TAG,"异常问题");
         }
     }
+
+    public void getAccount() {
+        AccountManager accountManager = AccountManager.get(this);
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.GET_ACCOUNTS) != PackageManager.PERMISSION_GRANTED) {
+            Account[] accounts = accountManager.getAccounts();
+            return;
+        }
+    }
+
 }

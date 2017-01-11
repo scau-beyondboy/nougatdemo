@@ -85,4 +85,5 @@ public class MainActivity extends AppCompatActivity {
             Log.d("onReceive", "getRestrictBackgroundStatus : " + connectivityManager.getRestrictBackgroundStatus());
         }
     }
+
 }
